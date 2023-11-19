@@ -193,9 +193,12 @@
         // cause the height (and therefore scroll) to jump backwards temporarily.
         storyContainer.style.height = contentBottomEdgeY()+"px";
 
+        updateQuestionStyles();
+
         if( !firstTime )
             scrollDown(previousBottomEdge);
-
+        
+        
     }
 
     function restart() {

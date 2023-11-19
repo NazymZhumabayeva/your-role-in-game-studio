@@ -155,6 +155,9 @@ img {
 .choice {
     text-align: center;
     line-height: 1.7em;
+    border: 1px solid black; /* рамка для ответов */
+    padding: 10px;
+    margin: 5px;
 }
 
 /* 
@@ -259,4 +262,18 @@ body.dark {
 
 .dark #controls {
     background: black;
+}
+
+.question {
+    font-size: 16pt;
+    color: #000000;
+    line-height: 2em;
+    font-weight: normal;
+}
+ 
+.finalresult {
+    font-size: 17pt;
+    color: #fe1472;
+    line-height: 2em;
+    font-weight: bold;   
 }
