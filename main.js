@@ -195,8 +195,8 @@
 
         updateQuestionStyles();
 
-        if( !firstTime )
-            scrollDown(previousBottomEdge);
+        // if( !firstTime )
+        //     scrollDown(previousBottomEdge);
         
         
     }
