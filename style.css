@@ -120,12 +120,12 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #120B1B;
     transition: color 0.1s;
 }
 
 strong {
-    color: black;
+    color: #120B1B;
     font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ img {
 .choice {
     text-align: center;
     line-height: 1.7em;
-    border: 1px solid black; /* рамка для ответов */
+    border: 1px solid #120B1B; /* рамка для ответов */
     padding: 10px;
     margin: 5px;
 }
@@ -181,7 +181,7 @@ img {
 .end {
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: #120B1B;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -223,7 +223,7 @@ img {
 */
 
 body.dark {
-    background: black;
+    background: #120B1B;
     color: white;
 }
 
@@ -232,11 +232,11 @@ body.dark {
 }
 
 .dark .container {
-    background: black;
+    background: #120B1B;
 }
 
 .dark .written-in-ink {
-    background: black;
+    background: #120B1B;
 }
 
 .dark a {
@@ -261,7 +261,7 @@ body.dark {
 }
 
 .dark #controls {
-    background: black;
+    background: #120B1B;
 }
 .dark .question {
     font-size: 16pt;
@@ -278,7 +278,7 @@ body.dark {
 }
 .question {
     font-size: 16pt;
-    color: #000000;
+    color: #120B1B;
     line-height: 2em;
     font-weight: normal;
 }
