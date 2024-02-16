@@ -177,6 +177,10 @@
                 // Remove all existing choices
                 removeAll(".choice");
 
+                // And Previous questions
+                removeAll("p");
+                removeAll("img");
+
                 // Tell the story where to go next
                 story.ChooseChoiceIndex(choice.index);
 
