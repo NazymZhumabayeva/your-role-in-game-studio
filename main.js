@@ -361,23 +361,25 @@
         });
 
         let reloadEl = document.getElementById("reload");
-        if (!hasSave) {
-            reloadEl.setAttribute("disabled", "disabled");
-        }
-        reloadEl.addEventListener("click", function(event) {
-            if (reloadEl.getAttribute("disabled"))
-                return;
-
-            removeAll("p");
-            removeAll("img");
-            try {
-                let savedState = window.localStorage.getItem('save-state');
-                if (savedState) story.state.LoadJson(savedState);
-            } catch (e) {
-                console.debug("Couldn't load save state");
+        if (reloadEl) {
+            if (!hasSave) {
+                reloadEl.setAttribute("disabled", "disabled");
             }
-            continueStory(true);
-        });
+            reloadEl.addEventListener("click", function(event) {
+                if (reloadEl.getAttribute("disabled"))
+                    return;
+
+                removeAll("p");
+                removeAll("img");
+                try {
+                    let savedState = window.localStorage.getItem('save-state');
+                    if (savedState) story.state.LoadJson(savedState);
+                } catch (e) {
+                    console.debug("Couldn't load save state");
+                }
+                continueStory(true);
+            });
+        }
 
         let themeSwitchEl = document.getElementById("theme-switch");
         if (themeSwitchEl) themeSwitchEl.addEventListener("click", function(event) {
