@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
 
-body {
+.uc-game body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     background: white;
     overflow: hidden;
 }
 
-body.switched {
+.uc-game body.switched {
     transition: color 0.6s, background-color 0.6s;
 }
 
-h1,
+.uc-game h1,
 h2 {
     text-align: center;
     font-family: "Quattrocento", Georgia, 'Times New Roman', Times, serif;
@@ -19,12 +19,12 @@ h2 {
     padding: 0;
 }
 
-h1 {
+.uc-game h1 {
     font-size: 30pt;
     margin-bottom: 10px;
 }
 
-h2 {
+.uc-game h2 {
     font-size: 14pt;
     font-style: italic;
     font-family: sans-serif;
@@ -32,7 +32,7 @@ h2 {
     color: #BBB;
 }
 
-.header {
+.uc-game .header {
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -41,11 +41,11 @@ h2 {
   Built-in class:
     # author: Name
 */
-.byline {
+.uc-game .byline {
     font-style: italic;
 }
 
-.written-in-ink {
+.uc-game .written-in-ink {
     z-index: 3;
     font-size: 9pt;
     font-family: sans-serif;
@@ -66,7 +66,7 @@ h2 {
 /* 
   Enables <iframe> support work on itch.io when using mobile iOS
 */
-.outerContainer {
+.uc-game .outerContainer {
     position: absolute;
     display: block;
     margin: 0;
@@ -84,14 +84,14 @@ h2 {
 }
 
 @media screen and (max-width: 980px) {
-    .outerContainer {
+    .uc-game .outerContainer {
         margin-top: 44px;
         background-size: cover;
         background-repeat: no-repeat;
     }
 }
 
-.container {
+.uc-game .container {
     display: block;
     max-width: 600px;
     margin: 0 auto;
@@ -100,18 +100,18 @@ h2 {
     background: white;
 }
 
-.switched .container {
+.uc-game .switched .container {
     transition: background-color 0.6s;
 }
 
-p {
+.uc-game p {
     font-size: 13pt;
     color: #888;
     line-height: 1.7em;
     font-weight: lighter;
 }
 
-a {
+.uc-game a {
     font-weight: 700;
     color: #5461fe;
     font-family: sans-serif;
@@ -119,31 +119,31 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.uc-game a:hover {
     color: #120B1B;
     transition: color 0.1s;
 }
 
-strong {
+.uc-game strong {
     color: #120B1B;
     font-weight: bold;
 }
 
-img {
+.uc-game img {
     display: block;
     margin: 0 auto;
     max-width: 60%;
 }
 
-.container .hide {
+.uc-game .container .hide {
     opacity: 0.0;
 }
 
-.container .invisible {
+.uc-game .container .invisible {
     display: none;
 }
 
-.container>* {
+.uc-game .container>* {
     opacity: 1.0;
     transition: opacity 1.0s;
 }
@@ -152,7 +152,7 @@ img {
   Class applied to all choices
   (Will always appear inside <p> element by default.)
 */
-.choice {
+.uc-game .choice {
     text-align: center;
     line-height: 1.7em;
     border: 1px solid #120B1B; /* рамка для ответов */
@@ -163,14 +163,14 @@ img {
 /* 
   Class applied to first choice
 */
-:not(.choice)+.choice {
+.uc-game :not(.choice)+.choice {
     padding-top: 1em;
 }
 
 /*
   Class applied to choice links
 */
-.choice a {
+.uc-game .choice a {
     font-size: 15pt;
 }
 
@@ -178,7 +178,7 @@ img {
   Built-in class:
     The End # CLASS: end
 */
-.end {
+.uc-game .end {
     text-align: center;
     font-weight: bold;
     color: #120B1B;
@@ -186,7 +186,7 @@ img {
     padding-bottom: 20px;
 }
 
-#controls {
+.uc-game #controls {
     z-index: 4;
     font-size: 14pt;
     text-align: center;
@@ -199,16 +199,16 @@ img {
     transition: color 0.6s, background 0.6s;
 }
 
-#controls [disabled] {
+.uc-game #controls [disabled] {
     color: #ccc;
 }
 
-#controls>*:not(:last-child):after {
+.uc-game #controls>*:not(:last-child):after {
     content: " | ";
 }
 
 @media screen and (max-width: 980px) {
-    #controls {
+    .uc-game #controls {
         z-index: 2;
         padding-top: 24px;
         top: 0;
@@ -222,68 +222,68 @@ img {
     # theme: dark
 */
 
-body.dark {
+.uc-game body.dark {
     background: #120B1B;
     color: white;
 }
 
-.dark h2 {
+.uc-game .dark h2 {
     color: #666;
 }
 
-.dark .container {
+.uc-game .dark .container {
     background: #120B1B;
 }
 
-.dark .written-in-ink {
+.uc-game .dark .written-in-ink {
     background: #120B1B;
 }
 
-.dark a {
+.uc-game .dark a {
     color: #5461fe;
     transition: color 0.6s;
 }
 
-.dark a:hover {
+.uc-game .dark a:hover {
     color: white;
 }
 
-.dark strong {
+.uc-game .dark strong {
     color: white;
 }
 
-.dark #controls [disabled] {
+.uc-game .dark #controls [disabled] {
     color: #444;
 }
 
-.dark .end {
+.uc-game .dark .end {
     color: white;
 }
 
-.dark #controls {
+.uc-game .dark #controls {
     background: #120B1B;
 }
-.dark .question {
+.uc-game .dark .question {
     font-size: 16pt;
     color: #ffffff;
     line-height: 2em;
     font-weight: normal;
 }
-.dark .choice {
+.uc-game .dark .choice {
     text-align: center;
     line-height: 1.7em;
     border: 1px solid rgb(255, 255, 255); /* рамка для ответов */
     padding: 10px;
     margin: 5px;
 }
-.question {
+.uc-game .question {
     font-size: 16pt;
     color: #120B1B;
     line-height: 2em;
     font-weight: normal;
 }
  
-.finalresult {
+.uc-game .finalresult {
     font-size: 17pt;
     color: #fe1472;
     line-height: 1.4em;
