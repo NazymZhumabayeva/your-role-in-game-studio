@@ -6,7 +6,7 @@
     var savePoint = "";
 
     let savedTheme;
-    let globalTagTheme;
+    let globalTagTheme = "dark";
 
     // Global tags - those at the top of the ink file
     // We support:
@@ -19,12 +19,12 @@
             var splitTag = splitPropertyTag(globalTag);
 
             // THEME: dark
-            if( splitTag && splitTag.property == "theme" ) {
-                globalTagTheme = splitTag.val;
-            }
+            // if( splitTag && splitTag.property == "theme" ) {
+            //     globalTagTheme = splitTag.val;
+            // }
 
             // author: Your Name
-            else if( splitTag && splitTag.property == "author" ) {
+            if( splitTag && splitTag.property == "author" ) {
                 var byline = document.querySelector('.byline');
                 byline.innerHTML = "by "+splitTag.val;
             }
