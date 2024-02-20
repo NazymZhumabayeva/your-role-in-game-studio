@@ -104,6 +104,26 @@ h2 {
     transition: background-color 0.6s;
 }
 
+.uc-game p {
+    font-size: 13pt;
+    color: #888;
+    line-height: 1.7em;
+    font-weight: lighter;
+}
+
+.uc-game a {
+    font-weight: 700;
+    color: #5461fe;
+    font-family: sans-serif;
+    transition: color 0.6s;
+    text-decoration: none;
+}
+
+.uc-game a:hover {
+    color: #120B1B;
+    transition: color 0.1s;
+}
+
 p {
     font-size: 13pt;
     color: #888;
