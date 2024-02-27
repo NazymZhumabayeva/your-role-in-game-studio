@@ -418,7 +418,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Учитывая, какое вы внимание уделяете сюжету... осознанно или нет, можно сказать, что вы... нарративный дизайнер! И, как удивительно сложилось.. у нас есть <a href=’https://gamelab.kbtu.kz/ru#programms’>курс Нарративного Дизайна</a>!",
+                "^Учитывая, какое вы внимание уделяете сюжету... осознанно или нет, можно сказать, что вы... нарративный дизайнер! И, как удивительно сложилось.. у нас есть <a href='https://gamelab.kbtu.kz/ru#programms'>курс Нарративного Дизайна</a>!",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/narrative.png" },
                 { "->": "final.7" },
@@ -478,7 +478,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = ‘https://gamelab.kbtu.kz/ru#programms’>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href=’https://gamelab.kbtu.kz/ru#programms’>наш курс Gamification and game studies</a>!",
+                "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = 'https://gamelab.kbtu.kz/ru#programms'>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href='https://gamelab.kbtu.kz/ru#programms'>наш курс Gamification and game studies</a>!",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/gamedesigner.png" },
                 { "->": "final.7" },
@@ -508,7 +508,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Тот, без кого буквально не будет самой игры... разработчик! Именно им вы и являетесь. Можем вам предложить <a href=’https://gamelab.kbtu.kz/ru#programms’>курсы по движкам Unity и Unreal Engine</a>!",
+                "^Тот, без кого буквально не будет самой игры... разработчик! Именно им вы и являетесь. Можем вам предложить <a href='https://gamelab.kbtu.kz/ru#programms'>курсы по движкам Unity и Unreal Engine</a>!",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/developer.png" },
                 { "->": "final.7" },
@@ -538,7 +538,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=’’https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
+                "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=''https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/producer.png" },
                 { "->": "final.7" },
@@ -592,7 +592,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Вы самый редкий (или нет..) тип людей... Инди разработчик! Вы можете делать всё по чуть-чуть. Можете выбрать себе <a href=’https://gamelab.kbtu.kz/ru#programms’>курс по душе</a>. Благо, у нас есть из чего выбрать! :)",
+                "^Вы самый редкий (или нет..) тип людей... Инди разработчик! Вы можете делать всё по чуть-чуть. Можете выбрать себе <a href='https://gamelab.kbtu.kz/ru#programms'>курс по душе</a>. Благо, у нас есть из чего выбрать! :)",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/unique.png" },
                 { "->": "final.7" },
@@ -714,7 +714,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Тот, без кого буквально не будет самой игры... разработчик! Именно им вы и являетесь. Можем вам предложить <a href=’https://gamelab.kbtu.kz/ru#programms’>курсы по движкам Unity и Unreal Engine</a>!",
+                      "^Тот, без кого буквально не будет самой игры... разработчик! Именно им вы и являетесь. Можем вам предложить <a href='https://gamelab.kbtu.kz/ru#programms'>курсы по движкам Unity и Unreal Engine</a>!",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/developer.png" },
                       { "->": ".^.^.^.13" },
@@ -733,7 +733,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=’’https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
+                      "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=''https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/producer.png" },
                       { "->": ".^.^.^.20" },
@@ -752,7 +752,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Учитывая, какое вы внимание уделяете сюжету... осознанно или нет, можно сказать, что вы... нарративный дизайнер! И, как удивительно сложилось.. у нас есть <a href=’https://gamelab.kbtu.kz/ru#programms’>курс Нарративного Дизайна</a>!",
+                      "^Учитывая, какое вы внимание уделяете сюжету... осознанно или нет, можно сказать, что вы... нарративный дизайнер! И, как удивительно сложилось.. у нас есть <a href='https://gamelab.kbtu.kz/ru#programms'>курс Нарративного Дизайна</a>!",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/narrative.png" },
                       { "->": ".^.^.^.27" },
@@ -771,7 +771,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = ‘https://gamelab.kbtu.kz/ru#programms’>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href=’https://gamelab.kbtu.kz/ru#programms’>наш курс Gamification and game studies</a>!",
+                      "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = ‘https://gamelab.kbtu.kz/ru#programms'>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href='https://gamelab.kbtu.kz/ru#programms'>наш курс Gamification and game studies</a>!",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/gamedesigner.png" },
                       { "->": ".^.^.^.34" },
