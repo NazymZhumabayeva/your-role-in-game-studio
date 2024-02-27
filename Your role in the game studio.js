@@ -538,7 +538,7 @@ var storyContent = {
             {
               b: [
                 "\n",
-                "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=''https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
+                "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href='https://gamelab.kbtu.kz/ru#programms'>курс Game Design & Development</a>.",
                 "\n",
                 { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/producer.png" },
                 { "->": "final.7" },
@@ -733,7 +733,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href=''https://gamelab.kbtu.kz/ru#programms>курс Game Design & Development</a>.",
+                      "^Такая заинтересованность во всех сферах и желание все анализировать для наилучшего результата... Вы продюсер игры! Из наших курсов вам больше всего подойдет <a href='https://gamelab.kbtu.kz/ru#programms'>курс Game Design & Development</a>.",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/producer.png" },
                       { "->": ".^.^.^.20" },
