@@ -771,7 +771,7 @@ var storyContent = {
                   {
                     b: [
                       "\n",
-                      "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = ‘https://gamelab.kbtu.kz/ru#programms'>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href='https://gamelab.kbtu.kz/ru#programms'>наш курс Gamification and game studies</a>!",
+                      "^Такую любовь к механикам, характеристикам, балансу в играх можно встретить только у... гейм дизайнеров! И всему этому можно научиться на <a href = 'https://gamelab.kbtu.kz/ru#programms'>курсе Game Design & Development</a>! Ну, а если вы мечтаете превратить в игру любой процесс, не пропустите <a href='https://gamelab.kbtu.kz/ru#programms'>наш курс Gamification and game studies</a>!",
                       "\n",
                       { "#": "IMAGE: https://cdn.jsdelivr.net/gh/NazymZhumabayeva/your-role-in-game-studio@tilda/gamedesigner.png" },
                       { "->": ".^.^.^.34" },
